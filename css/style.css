@@ -16,6 +16,11 @@ h1 {
   /*width: 20%;
   margin: 0 auto 0 auto;*/
 }
+
+h3 {
+  margin-top: 50px;
+  text-align: center;
+}
 .top {
   background-color: #b9eddd;
   padding: 50px;
@@ -52,20 +57,10 @@ img {
   left: 300px;
 }
 
-li {
-  list-style: none;
-  text-align: left;
-}
-
 .computer {
   width: 25%;
   float: left;
   margin-right: 50px;
-}
-
-.code {
-  width: 20%;
-  float: left;
 }
 
 hr {
@@ -93,4 +88,30 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+.lists {
+  /*display: inline-block;*/
+  text-align: center;
+}
+
+.list {
+  /*width: 1000px;
+  position: relative;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.code {
+  /*display: inline-block;
+  position: absolute;*/
+  margin-left: 200px;
+  padding-left: 200px;
+}
+
+.lists li {
+  list-style: circle;
+  margin-right: 100px; /* Adjust the margin as needed */
+  margin-left: 100px;
 }
